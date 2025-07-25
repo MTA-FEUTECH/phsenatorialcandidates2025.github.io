@@ -11,18 +11,25 @@
 	padding: 20px;
 }
 
-	/* BODY STYLE */
-body
+	/* CONTAINER 2 */
+.container2
 {
+	padding: 0;
+	padding-top: 1em;
+
 	text-align: center;
-	
-	background: linear-gradient(180deg,rgba(244, 244, 220, 1) 0%, rgba(253, 253, 210, 1) 100%);
-	background-attachment: fixed;
 	
 	color: var(--clr_txt);
 	text-shadow:
 		1px 1px 1em rgba(0, 0, 0, 0.25),
 		0 0 1em white;
+}
+
+	/* BODY STYLE */
+body
+{
+	background: linear-gradient(180deg,rgba(244, 244, 220, 1) 0%, rgba(253, 253, 210, 1) 100%);
+	background-attachment: fixed;
 }
 
 	/* TABLE STYLE */
@@ -99,4 +106,10 @@ img
 .large-space
 {
 	height: 4em;
+}
+
+#drop_shadow
+{
+    box-shadow:
+		0px 1px 16px green;
 }

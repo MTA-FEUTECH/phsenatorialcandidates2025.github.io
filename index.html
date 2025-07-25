@@ -6,6 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta charset="UTF-8">
 		
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		
 		<style>		
@@ -74,121 +77,143 @@
 	</head>
 	
 	<body>
-		<h1>Senatorial Candidates</h1>
-		<h2>Top 12 Candidates as of May 15, 2025</h2>
-		
-		<hr class="hr1">
-		
-		<p>This website is the place for you to get to know the Top 12 candidates that won the elections.</p>
-		
-		<h3>List of Candidates by Ranking:</h3>
-		
-		<table>	
-			<tr> <!-- row 1 -->
-				<td>
-					<a href="01_go.html"><img src="src/img/bonggo.png"></img></a>
-				</td>
-				<td>
-					<a href="02_aquino.html"><img src="src/img/bamaquino.png"></a>
-				</td>
-				<td>
-					<a href="03_delarosa.html"><img src="src/img/bato.png"></a>
-				</td>
-				<td>
-					<a href="04_tulfo.html"><img src="src/img/erwin.png"></a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="01_go.html"><u><b>1. GO, BONG GO</b></u><br>
-					<em>PDPLBN</em></a>
-				</td>
-				<td>
-					<a href="02_aquino.html"><u><b>2. AQUINO, BAM</b></u><br>
-					<em>KNP</em></a>
-				</td>
-				<td>
-					<a href="03_delarosa.html"><u><b>3. DELA ROSA, BATO</b></u><br>
-					<em>PDPLBN</em></a>
-				</td>
-				<td>
-					<a href="04_tulfo.html"><u><b>4. TULFO, ERWIN</b></u><br>
-					<em>LAKAS</em></a>
-				</td>
-			</tr>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
-			<tr> <!-- row 2 -->
-				<td>
-					<a href="05_pangilinan.html"><img src="src/img/kiko.png"></img></a>
-				</td>
-				<td>
-					<a href="06_marcoleta.html"><img src="src/img/rodante.png"></a>
-				</td>
-				<td>
-					<a href="07_lacson.html"><img src="src/img/pingpingping.png"></a>
-				</td>
-				<td>
-					<a href="08_sotto.html"><img src="src/img/tito.png"></a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="05_pangilinan.html"><u><b>5. PANGILINAN, KIKO</b></u><br>
-					<em>LP</em></a>
-				</td>
-				<td>
-					<a href="06_marcoleta.html"><u><b>6. MARCOLETA, RODANTE</b></u><br>
-					<em>IND</em></a>
-				</td>
-				<td>
-					<a href="07_lacson.html"><u><b>7. LACSON, PING</b></u><br>
-					<em>IND</em></a>
-				</td>
-				<td>
-					<a href="08_sotto.html"><u><b>8. SOTTO, TITO</b></u><br>
-					<em>NPC</em></a>
-				</td>
-			</tr>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-primary" style="background: linear-gradient(180deg,rgba(244, 244, 220, 1) 0%, rgba(253, 253, 210, 1) 100%);" data-bs-theme="light" id="drop_shadow">
+            <!-- Brand name -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PH Senatorial Candidates 2025</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Items -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Candidates</a>
+                        <a class="nav-link" href="about.html">About & Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+		
+		<div class="container2">
+			<h1>Senatorial Candidates</h1>
+			<h2>Top 12 Candidates as of May 15, 2025</h2>
 
-			<tr> <!-- row 3 -->
-				<td>
-					<a href="09_cayetano.html"><img src="src/img/pia.png"></img></a>
-				</td>
-				<td>
-					<a href="10_villar.html"><img src="src/img/villar.png"></a>
-				</td>
-				<td>
-					<a href="11_lapid.html"><img src="src/img/lito.png"></a>
-				</td>
-				<td>
-					<a href="12_marcos.html"><img src="src/img/marcos.png"></a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="09_cayetano.html"><u><b>9. CAYETANO, PIA</b></u><br>
-					<em>NP</em></a>
-				</td>
-				<td>
-					<a href="10_villar.html"><u><b>10. VILLAR, CAMILLE</b></u><br>
-					<em>NP</em></a>
-				</td>
-				<td>
-					<a href="11_lapid.html"><u><b>11. LAPID, LITO</b></u><br>
-					<em>NPC</em></a>
-				</td>
-				<td>
-					<a href="12_marcos.html"><u><b>12. MARCOS, IMEE</b></u><br>
-					<em>NP</em></a>
-				</td>
-			</tr>
-		</table>
-		
-		<br>
-		
-		<span class="reference">Reference: <a target="_blank" href="https://www.philstar.com/headlines/2025/05/16/2443547/list-final-senatorial-ranking-2025-elections">Comelec releases final senatorial ranking in the 2025 elections | Philstar.com</a></span>
-		
-		<div class="medium-space"></div>
-		
+			<hr class="hr1">
+
+			<p>This website is the place for you to get to know the Top 12 candidates that won the elections.	</p>
+
+			<h3>List of Candidates by Ranking:</h3>
+
+			<table>	
+				<tr> <!-- row 1 -->
+					<td>
+						<a href="01_go.html"><img src="src/img/bonggo.png"></img></a>
+					</td>
+					<td>
+						<a href="02_aquino.html"><img src="src/img/bamaquino.png"></a>
+					</td>
+					<td>
+						<a href="03_delarosa.html"><img src="src/img/bato.png"></a>
+					</td>
+					<td>
+						<a href="04_tulfo.html"><img src="src/img/erwin.png"></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="01_go.html"><u><b>1. GO, BONG GO</b></u><br>
+						<em>PDPLBN</em></a>
+					</td>
+					<td>
+						<a href="02_aquino.html"><u><b>2. AQUINO, BAM</b></u><br>
+						<em>KNP</em></a>
+					</td>
+					<td>
+						<a href="03_delarosa.html"><u><b>3. DELA ROSA, BATO</b></u><br>
+						<em>PDPLBN</em></a>
+					</td>
+					<td>
+						<a href="04_tulfo.html"><u><b>4. TULFO, ERWIN</b></u><br>
+						<em>LAKAS</em></a>
+					</td>
+				</tr>
+
+				<tr> <!-- row 2 -->
+					<td>
+						<a href="05_pangilinan.html"><img src="src/img/kiko.png"></img></a>
+					</td>
+					<td>
+						<a href="06_marcoleta.html"><img src="src/img/rodante.png"></a>
+					</td>
+					<td>
+						<a href="07_lacson.html"><img src="src/img/pingpingping.png"></a>
+					</td>
+					<td>
+						<a href="08_sotto.html"><img src="src/img/tito.png"></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="05_pangilinan.html"><u><b>5. PANGILINAN, KIKO</b></u><br>
+						<em>LP</em></a>
+					</td>
+					<td>
+						<a href="06_marcoleta.html"><u><b>6. MARCOLETA, RODANTE</b></u><br>
+						<em>IND</em></a>
+					</td>
+					<td>
+						<a href="07_lacson.html"><u><b>7. LACSON, PING</b></u><br>
+						<em>IND</em></a>
+					</td>
+					<td>
+						<a href="08_sotto.html"><u><b>8. SOTTO, TITO</b></u><br>
+						<em>NPC</em></a>
+					</td>
+				</tr>
+
+				<tr> <!-- row 3 -->
+					<td>
+						<a href="09_cayetano.html"><img src="src/img/pia.png"></img></a>
+					</td>
+					<td>
+						<a href="10_villar.html"><img src="src/img/villar.png"></a>
+					</td>
+					<td>
+						<a href="11_lapid.html"><img src="src/img/lito.png"></a>
+					</td>
+					<td>
+						<a href="12_marcos.html"><img src="src/img/marcos.png"></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="09_cayetano.html"><u><b>9. CAYETANO, PIA</b></u><br>
+						<em>NP</em></a>
+					</td>
+					<td>
+						<a href="10_villar.html"><u><b>10. VILLAR, CAMILLE</b></u><br>
+						<em>NP</em></a>
+					</td>
+					<td>
+						<a href="11_lapid.html"><u><b>11. LAPID, LITO</b></u><br>
+						<em>NPC</em></a>
+					</td>
+					<td>
+						<a href="12_marcos.html"><u><b>12. MARCOS, IMEE</b></u><br>
+						<em>NP</em></a>
+					</td>
+				</tr>
+			</table>
+
+			<br>
+
+			<span class="reference">Reference: <a target="_blank" href="https://www.philstar.com/headlines/	2025/05/16/2443547/list-final-senatorial-ranking-2025-elections"Comelec releases final 	senatorial ranking in the 2025 elections | Philstar.com</a></span>
+			
+			<div class="medium-space"></div>
+		</div>
 	</body>
 </html>
